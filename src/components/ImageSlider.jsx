@@ -10,17 +10,26 @@ function ImageSlider() {
 
         <Swiper
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={1}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}>
             <SwiperSlide>
-                <img src={slider1} alt="Slide 1" />
+                <section style={{
+                    backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider1})`,
+                }} className='bg-cover bg-center h-[90vh]'>
+                </section>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={slider2} alt="Slide 2" />
+            <section style={{
+                    backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider2})`,
+                }} className='bg-cover bg-center h-[90vh]'>
+                </section>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={slider3} alt="Slide 3" />
+            <section style={{
+                    backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider3})`,
+                }} className='bg-cover bg-center h-[90vh]'>
+                </section>
             </SwiperSlide>
         </Swiper>
 

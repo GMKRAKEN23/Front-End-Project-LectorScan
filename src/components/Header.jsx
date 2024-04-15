@@ -19,13 +19,13 @@ function Header() {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-10">
-                    <a href="#" className="text-lg font-semibold leading-6 text-neutral-50 tracking-widest">One piece</a>
-                    <a href="#" className="text-lg font-semibold leading-6 text-neutral-50 tracking-widest">My hero academia</a>
-                    <a href="#" className="text-lg font-semibold leading-6 text-neutral-50 tracking-widest">Manga</a>
-                    <a href="#" className="text-lg font-semibold leading-6 text-neutral-50 tracking-widest">Pages</a>
+                    <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest">One piece</a>
+                    <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest">My hero academia</a>
+                    <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest">Manga</a>
+                    <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest">Pages</a>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:mt-2">
-                    <a href="#" className="text-lg font-semibold leading-6 text-neutral-50 tracking-widest bg-red-600 rounded-lg  px-5 py-1 me-2 mb-2 mx-2">Log in</a>
+                    <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest bg-red-600 rounded-lg  px-5 py-1 me-2 mb-2 mx-2">Log in</a>
                 </div>
             </nav>
         </header>
