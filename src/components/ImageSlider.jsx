@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import slider1 from '/assets/img_slides/slide_1.jpeg';
 import slider2 from '/assets/img_slides/slide_2.jpg';
 import slider3 from '/assets/img_slides/slide_3.jpg';
+import { Pagination, Scrollbar} from 'swiper/modules';
 import 'swiper/css';
 
 function ImageSlider() {
@@ -9,9 +10,12 @@ function ImageSlider() {
     return (
 
         <Swiper
+            modules={[Pagination, Scrollbar]}
             spaceBetween={50}
             slidesPerView={1}
+            pagination={{ clickable: true }}
             onSlideChange={() => console.log('slide change')}
+            scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}>
             <SwiperSlide>
                 <section style={{
