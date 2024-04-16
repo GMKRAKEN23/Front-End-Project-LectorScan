@@ -1,11 +1,16 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import slider1 from '/assets/img_slides/slide_1.jpeg';
-import slider2 from '/assets/img_slides/slide_2.jpg';
-import slider3 from '/assets/img_slides/slide_3.jpg';
 import { Pagination, Scrollbar, Autoplay } from 'swiper/modules';
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
+
+import ContentSlider from './ContentSlider';
+
+import slider1 from '/assets/img_slides/slide_1.jpeg';
+import slider2 from '/assets/img_slides/slide_2.jpg';
+import slider3 from '/assets/img_slides/slide_3.jpg';
+
 
 function ImageSlider() {
 
@@ -30,6 +35,7 @@ function ImageSlider() {
                 <section style={{
                     backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider1})`,
                 }} className='bg-cover bg-center h-[90vh]'>
+                    <ContentSlider/>
                 </section>
             </SwiperSlide>
             <SwiperSlide>
