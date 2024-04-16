@@ -35,19 +35,21 @@ function ImageSlider() {
                 <section style={{
                     backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider1})`,
                 }} className='bg-cover bg-center h-[90vh]'>
-                    <ContentSlider/>
+                    <ContentSlider slider={slider1}/>
                 </section>
             </SwiperSlide>
             <SwiperSlide>
                 <section style={{
                     backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider2})`,
                 }} className='bg-cover bg-center h-[90vh]'>
+                    <ContentSlider slider={slider2}/>
                 </section>
             </SwiperSlide>
             <SwiperSlide>
                 <section style={{
                     backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider3})`,
                 }} className='bg-cover bg-center h-[90vh]'>
+                    <ContentSlider slider={slider3}/>
                 </section>
             </SwiperSlide>
         </Swiper>

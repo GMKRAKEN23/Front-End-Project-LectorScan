@@ -11,3 +11,31 @@ body{
   box-sizing: border-box;
   margin: 0;
 }
+
+.shadow-custom {
+  box-shadow: -5px 0px 54px 6px rgba(0, 0, 0, 0.65);
+}
+
+.button_read{
+  width: 10px;
+  height: 10px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .6s;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.button_read::after{
+  width: 10px;
+  height: 10px;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: .6s;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
