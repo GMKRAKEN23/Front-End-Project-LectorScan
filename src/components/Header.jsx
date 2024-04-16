@@ -26,7 +26,7 @@ function Header() {
            
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:mt-2">
-                    <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest bg-red-600 rounded-lg px-5 py-1 me-2 mb-2 mx-2">Log in</a>
+                    <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest bg-red-600 rounded-lg px-5 py-1 me-2 mb-2 mx-2  transition duration-300 shadow_custom_red">Log in</a>
                 </div>
             </nav>
         </header>

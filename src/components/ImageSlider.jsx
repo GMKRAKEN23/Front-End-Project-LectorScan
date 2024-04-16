@@ -35,21 +35,27 @@ function ImageSlider() {
                 <section style={{
                     backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider1})`,
                 }} className='bg-cover bg-center h-[90vh]'>
-                    <ContentSlider slider={slider1}/>
+                    <ContentSlider slider={slider1} content='As they sail across the endless seas, the Straw Hat crew, 
+                    led by the charismatic Luffy, pursue their ultimate dream: finding the legendary One Piece treasure.' 
+                    chapter='Chapter 900' date='23rd November 2025'/>
                 </section>
             </SwiperSlide>
             <SwiperSlide>
                 <section style={{
                     backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider2})`,
                 }} className='bg-cover bg-center h-[90vh]'>
-                    <ContentSlider slider={slider2}/>
+                    <ContentSlider slider={slider2} content='Hawk-Eye issues a challenge to anyone who would dare challenge 
+                    him to a sword duel. The greatest swordsmen of the seas converge on Kuraigana, drawn by the promise of
+                    a legendary clash.' chapter='Chapter 980' date='10th January 2025'/>
                 </section>
             </SwiperSlide>
             <SwiperSlide>
                 <section style={{
                     backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${slider3})`,
                 }} className='bg-cover bg-center h-[90vh]'>
-                    <ContentSlider slider={slider3}/>
+                    <ContentSlider slider={slider3} content='In the Royal Palace, Doflamingo stands atop his throne, 
+                    determined to fight to the end to preserve his power. But as fighting rages in the streets below, 
+                    an unlikely alliance forms.' chapter='Chapter 1044' date='30th May 2025'/>
                 </section>
             </SwiperSlide>
         </Swiper>
