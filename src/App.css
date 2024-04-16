@@ -44,7 +44,12 @@ body{
   border-bottom: 1px solid white;
 }
 
-.button_after:hover::after{
+:hover::after{
+  width: 100%;
+  height: 100%;
+}
+
+:hover::before{
   width: 100%;
   height: 100%;
 }
