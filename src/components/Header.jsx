@@ -1,13 +1,21 @@
 import logo from './../assets/img/lectorscan.png'
+import ToggleMenu from './ToggleMenu'
+import { useState } from 'react';
 
 function Header() {
+
+    const [toggleIsOpen, SetToogleIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        SetToogleIsOpen(!toggleIsOpen);
+    }
 
     return (
         <header>
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="#">
-                        <span><img src={logo} alt='logo_lectorscan'className='w-[150px] h-[150px]'/></span>
+                        <span><img src={logo} alt='logo_lectorscan' className='w-[150px] h-[150px]' /></span>
                     </a>
                 </div>
                 <div className="flex lg:hidden">
@@ -18,12 +26,18 @@ function Header() {
                         </svg>
                     </button>
                 </div>
-                <div className="hidden lg:flex lg:gap-x-10">  
+                <div className="hidden lg:flex lg:gap-x-10">
                     <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">One piece</a>
                     <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">My hero academia</a>
                     <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">Manga</a>
-                    <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">Pages</a>
-           
+                    <div>
+                        <a href="#" onClick={toggleMenu} className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">Pages</a>
+                        {toggleIsOpen && (
+                            <div className='absolute z-10 w-full left-0 mt-[63px] max-w-md'>
+                                <ToggleMenu />
+                            </div>
+                        )}
+                    </div>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:mt-2">
                     <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest bg-red-600 rounded-lg px-5 py-1 me-2 mb-2 mx-2 transition duration-300 shadow_custom_red">Log in</a>
