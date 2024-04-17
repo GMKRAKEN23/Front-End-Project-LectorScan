@@ -33,7 +33,7 @@ function Header() {
                     <div>
                         <a href="#" onClick={toggleMenu} className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">Pages</a>
                         {toggleIsOpen && (
-                            <div className='absolute z-10 w-full left-0 mt-[63px] max-w-md'>
+                            <div className='absolute z-10 w-full left-0 mt-[63px] max-w-md' >
                                 <ToggleMenu />
                             </div>
                         )}
