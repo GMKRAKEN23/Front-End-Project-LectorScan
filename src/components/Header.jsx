@@ -15,7 +15,7 @@ function Header() {
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="#">
-                        <span><img src={logo} alt='logo_lectorscan' className='w-[150px] h-[150px]' /></span>
+                        <span><img src={logo} alt='logo_lectorscan' className='w-[80px] lg:[80px] lg:w-[150px] lg:h-[150px]' /></span>
                     </a>
                 </div>
                 <div className="flex lg:hidden">
@@ -32,11 +32,9 @@ function Header() {
                     <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">Manga</a>
                     <div>
                         <a href="#" onClick={toggleMenu} className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">Pages</a>
-                        {toggleIsOpen && (
-                            <div className='absolute z-10 w-full left-0 mt-[63px] max-w-md' >
-                                <ToggleMenu />
-                            </div>
-                        )}
+                        <div className={`absolute z-10 w-full left-0 mt-[63px] max-w-md transition-opacity duration-300 ${toggleIsOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+                            <ToggleMenu />
+                        </div>
                     </div>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:mt-2">
