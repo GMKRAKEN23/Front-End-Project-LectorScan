@@ -5,7 +5,7 @@ function PromotionChapter({ name = "One Piece", chapter = "Chapter 850", time = 
     return (
         <div style={{
             backgroundImage: `linear-gradient(rgba(90, 88, 88, 0.628), rgba(59, 59, 59, 0.646)), url(${ImagePromotion})`,
-        }} className='bg-cover bg-center h-[55vh] lg:h-[90vh] '>
+        }} className='hidden lg:block bg-cover bg-center h-[55vh] lg:h-[90vh] '>
 
             <div className='flex justify-around items-center h-full lg:h-full'>
                 <div className="lg:w-4/12 lg:mx-3 mt-4 flex flex-col gap-3 items-stretch">

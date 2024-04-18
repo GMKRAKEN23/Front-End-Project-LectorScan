@@ -36,19 +36,19 @@ function TimerPromotionChapter() {
     return (
         <div className="flex justify-around my-7">
             <div className="flex items-center flex-col ">
-                <div className="text-4xl text-neutral-50 bg-black border-black text-center rounded-lg p-3 h-19 w-20">{days}</div>
+                <div className="text-4xl text-neutral-50 bg-black border-black text-center rounded-lg mx-1 p-3 h-19 w-21">{days}</div>
                 <span className="text-xl">Days</span>
             </div>
             <div className="flex items-center flex-col">
-                <div className="text-4xl text-neutral-50 bg-black border-black text-center rounded-lg p-3 h-19 w-20">{hours}</div>
+                <div className="text-4xl text-neutral-50 bg-black border-black text-center rounded-lg mx-1 p-3 h-19 w-20">{hours}</div>
                 <span className="text-xl">Hours</span>
             </div>
             <div className="flex items-center flex-col">
-                <div className="text-4xl text-neutral-50 bg-black border-black text-center rounded-lg p-3 h-19 w-20">{minutes}</div>
+                <div className="text-4xl text-neutral-50 bg-black border-black text-center rounded-lg mx-1 p-3 h-19 w-20">{minutes}</div>
                 <span className="text-xl">Minutes</span>
             </div>
             <div className="flex items-center flex-col">
-                <div className="text-4xl text-neutral-50 bg-black border-black text-center rounded-lg p-3 h-19 w-20">{seconds}</div>
+                <div className="text-4xl text-neutral-50 bg-black border-black text-center rounded-lg mx-1 p-3 h-19 w-20">{seconds}</div>
                 <span className="text-xl">Seconds</span>
             </div>
         </div>

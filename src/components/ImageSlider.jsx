@@ -24,7 +24,7 @@ function ImageSlider() {
             onSlideChange={() => console.log('slide change')}
             scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
-            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            autoplay={{ delay: 10000, disableOnInteraction: true }}
             loop={true}
             style={{
                 "--swiper-pagination-color": "#ff1004",
