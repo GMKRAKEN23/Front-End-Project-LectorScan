@@ -32,7 +32,7 @@ function Header() {
                     <a href="#" className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">Manga</a>
                     <div>
                         <a href="#" onClick={toggleMenu} className="text-xl font-semibold leading-6 text-neutral-50 tracking-widest hover:text-red-600 hover:ease-in-out duration-500">Pages</a>
-                        <div className={`absolute z-10 w-full left-0 mt-[63px] max-w-md transition-opacity duration-300 ${toggleIsOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+                        <div className={`absolute z-10 w-full left-0 mt-[62px] max-w-md transition-opacity duration-300 ${toggleIsOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                             <ToggleMenu />
                         </div>
                     </div>
