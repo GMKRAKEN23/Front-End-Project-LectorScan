@@ -1,6 +1,6 @@
-import ImageSlider from "../../src/components/ImageSlider";
-import Copyright from "../components/Copyright";
-import PromotionChapter from "../components/PromotionChapter";
+import ImageSlider from "../../components/ImageSlider";
+import Copyright from "../../components/Footer/Copyright";
+import PromotionChapter from "../../components/PromotionChapter";
 
 function Content () {
 

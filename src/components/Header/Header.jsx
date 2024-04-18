@@ -1,4 +1,4 @@
-import logo from './../assets/img/lectorscan.png'
+import logo from '../../assets/img/lectorscan.png'
 import ToggleMenu from './ToggleMenu'
 import { useState } from 'react';
 
