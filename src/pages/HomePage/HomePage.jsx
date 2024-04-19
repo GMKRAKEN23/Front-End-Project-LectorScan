@@ -1,5 +1,6 @@
 import ImageSlider from "../../components/ImageSlider";
 import Copyright from "../../components/Footer/Copyright";
+import Footer from "../../components/Footer/Footer";
 import PromotionChapter from "../../components/PromotionChapter";
 
 function Content () {
@@ -8,6 +9,7 @@ function Content () {
         <div>
             <ImageSlider />  
             <PromotionChapter />
+            <Footer />
             <Copyright />
         </div>  
     )

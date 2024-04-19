@@ -1,5 +1,5 @@
 import logo from '../../assets/img/lectorscan.png'
-import ToggleMenu from './ToggleMenu'
+import ToggleMenu from '../Header/components/ToggleMenu'
 import { useState } from 'react';
 
 function Header() {
