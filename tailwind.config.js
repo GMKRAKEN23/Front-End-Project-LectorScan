@@ -8,7 +8,13 @@ export default {
     extend: {
       fontFamily:{
         sans: ['Poppins', 'sans-serif'],
-      }
+      },
+      colors: {
+        'white-shadow': '#ffffff',
+      },
+      boxShadow: {
+        'white': '0 0 10px theme("colors.white-shadow")',
+      },
     },
   },
   plugins: [],

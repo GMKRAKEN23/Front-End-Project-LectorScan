@@ -5,26 +5,29 @@ function Footer() {
             <div className="lg:flex lg:order-2 lg:flex-col">
                 <div className="lg:flex lg:justify-around">
                     <div className="py-5">
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Product Declarations</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Terms Of Use</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Privacy Policy</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Partners</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Others</a></h2>
+                        <h3 className="lg:text-lg font-semibold tracking-widest mb-2">Community</h3>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Product Declarations</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Terms Of Use</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Privacy Policy</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Partners</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Others</a></h2>
                     </div>
                     <div className="my-5">
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">About Us</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Contacts</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Pricing</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Faq</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Help</a></h2>
+                        <h3 className="lg:text-lg font-semibold tracking-widest mb-2">Company</h3>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">About Us</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Contacts</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Pricing</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Faq</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Help</a></h2>
                     </div>
                     <div className="my-5">
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Blog</a></h2>
-                        <h2 className="text-base text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Podcasts</a></h2>
+                        <h3 className="lg:text-lg font-semibold tracking-widest mb-2">Information</h3>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Blog</a></h2>
+                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-black"><a href="#">Podcasts</a></h2>
                     </div>
                 </div>
 
-                <div className="newsletter hidden lg:block lg:flex lg:flex-col">
+                <div className="newsletter hidden lg:block lg:flex lg:flex-col lg:items-end lg:w-11/12">
                     <h3 className="lg:text-lg lg:text-neutral-50 lg:font-semibold lg:mb-2.5 tracking-widest">Newsletter</h3>
                     <div className="w-1/5 h-1.5 bg-neutral-50 relative overflow-hidden rounded mb-6">
                         <span className="w-[2.5rem] bg-black absolute h-1.5 rounded moving"></span>
@@ -41,15 +44,15 @@ function Footer() {
                 <div className="lg:flex lg:flex-col">
                     <div className="hidden lg:block">
                         <img src={logo} alt="logo_lectorscan" className="w-[80px] h-[80px] lg:w-[150px] lg:h-[150px] mx-auto" />
-                        <p className="lg:text-lg lg:pl-7 text-neutral-50 ">LectorScan est une plateforme en ligne qui offre un accès à une vaste bibliothèque de mangas,
-                            permettant aux utilisateurs de lire des chapitres de leurs séries préférées.
+                        <p className="lg:text-lg lg:pl-7 text-neutral-50 ">LectorScan is an online platform that provides access to an extensive library of manga, 
+                        allowing users to read chapters from their favorite series.
                         </p>
                     </div>
                     <ul className="flex justify-between md:justfiy-around md:w-3/6 w-4/6 mx-auto py-2 lg:my-7 lg:mx-auto lg:pl-7">
-                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-neutral-50 "><i className='bx bxl-facebook text-lg'></i></li>
-                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-neutral-50"><i className='bx bxl-instagram text-lg'></i></li>
-                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-neutral-50"><i className='bx bxl-twitter text-lg'></i></li>
-                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-neutral-50"><i className='bx bxl-tiktok text-lg'></i></li>
+                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-facebook text-lg'></i></li>
+                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-instagram text-lg'></i></li>
+                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-twitter text-lg'></i></li>
+                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-tiktok text-lg'></i></li>
                     </ul>
                 </div>
             </div>
