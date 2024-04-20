@@ -1,0 +1,17 @@
+{
+    "CollectionOnePiece" : [
+        {
+            "title": "One piece",
+            "volume" : "107",
+            "language" : "England",
+            "chapter" : [
+                {
+                    "number" : 1,
+                    "image" : "",
+                    "title" : "Clash Luffy vs Kaido",
+                    "pages" : 56
+                }
+            ]
+        }
+    ]
+}
