@@ -1,0 +1,17 @@
+{
+    "CollectionJujutsuKaizen" : [
+        {
+            "title": "Jujutsu Kaizen",
+            "volume" : "10",
+            "language" : "England",
+            "chapter" : [
+                {
+                    "number" : 1,
+                    "image" : "/assets/images/JujutsuKaizen/jujutsu_kaizen.jpg",
+                    "title" : "The power of fire",
+                    "pages" : 56
+                }
+            ]
+        }
+    ]
+}
