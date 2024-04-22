@@ -1,0 +1,17 @@
+{
+    "CollectionBerserk" : [
+        {
+            "title": "Berserk",
+            "volume" : "62",
+            "language" : "England",
+            "chapter" : [
+                {
+                    "number" : 1,
+                    "image" : "/assets/images/Bersek/berserk_one.jpg",
+                    "title" : "Blood Warrior",
+                    "pages" : 13
+                }
+            ]
+        }
+    ]
+}

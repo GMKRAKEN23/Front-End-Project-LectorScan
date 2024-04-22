@@ -1,44 +1,31 @@
-import { useState, useEffect } from 'react';
-import OnePieceData from '../data/ChapterOnePiece.json'
+import ChapterBerserk from "../data/ChapterBerserk.json";
+import ChapterOnePiece from "../data/ChapterOnePiece.json";
 
 function PopularManga() {
-
-    const [popularManga, setPopularManga] = useState([]);
-    useEffect(() => {
-
-        setTimeout(() => {
-            setPopularManga(OnePieceData.slice(0,1))
-        }, 1000);
-
-    }, []);
+    const mangaData = [...ChapterBerserk.CollectionBerserk, ...ChapterOnePiece.CollectionOnePiece];
 
     return (
-        <div>
-            <div className="flex flex-col">
+        <div className="h-96">
+            <div className="flex flex-col h-96">
                 <div>
-                    <h2>Popular Manga</h2>
+                    <h2 className='text-neutral-50'>Popular Manga</h2>
                 </div>
                 <div>
-                    {popularManga.map((manga, index) => (
-                        <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg bg-neutral-50">
-                            <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" />
+                    {mangaData.map((manga, index) => (
+                        <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg bg-neutral-50 m-2">
+                            <img className="w-full" src={`/src/${manga.chapter[0].image}`} alt="Sunset in the mountains" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
                                 <p className="text-gray-700 text-base">
-                                    {manga.title}
+                                    {manga.chapter[0].pages}
                                 </p>
                             </div>
-                            <div className="px-6 pt-4 pb-2">
-                                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-                            </div>
                         </div>
-                    ))};
+                    ))}
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default PopularManga;
