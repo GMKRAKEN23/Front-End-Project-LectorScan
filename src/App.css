@@ -14,11 +14,15 @@ body{
 }
 
 .shadow-custom {
-  box-shadow: -5px 0px 54px 6px rgba(0, 0, 0, 0.65);
+  box-shadow: -5px 0px 54px 6px hsla(0, 0%, 0%, 0.65);
 }
 
 .shadow_custom_red:hover{
-  box-shadow: 0px 0px 50px rgb(229, 18, 18);
+  box-shadow: 0px 0px 50px hsl(0, 85%, 48%);
+}
+
+.shadow_custom_red-20:hover{
+  box-shadow: 0px 0px 30px 1px hsl(0, 72%, 51%);
 }
 
 .button {
@@ -43,8 +47,8 @@ body{
 .button .button_read_before {
   width: 10px;
   height: 10px;
-  border-left: 1px solid white;
-  border-top: 1px solid white;
+  border-left: 1px solid hsl(0, 0%, 100%);
+  border-top: 1px solid hsl(0, 0%, 100%);
   top: 0;
   left: 0;
 }
@@ -52,14 +56,10 @@ body{
 .button .button_read_after {
   width: 10px;
   height: 10px;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
+  border-right: 1px solid hsl(0, 0%, 100%);
+  border-bottom: 1px solid hsl(0, 0%, 100%);
   bottom: 0;
   right: 0;
-}
-
-.background-footer{
-  background-image: linear-gradient( 120deg, hsl(0deg 0% 0%) 0%, hsl(0deg 0% 0%) 8%, hsl(0deg 0% 1%) 15%, hsl(0deg 0% 1%) 23%, hsl(0deg 0% 1%) 31%, hsl(0deg 14% 10%) 38%, hsl(0deg 38% 23%) 46%, hsl(0deg 61% 36%) 54%, hsl(0deg 84% 49%) 62%, hsl(0deg 99% 57%) 69%, hsl(0deg 99% 55%) 77%, hsl(0deg 99% 53%) 85%, hsl(0deg 100% 52%) 92%, hsl(0deg 100% 50%) 100% )
 }
 
 .moving{
