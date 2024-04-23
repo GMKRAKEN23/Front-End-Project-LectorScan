@@ -1,6 +1,6 @@
 function ServiceDescription() {
     return (
-        <div className="my-20">
+        <div className="mt-20 lg:my-20">
             <div className="flex flex-col h-full place-content-evenly grid col-2">
                 <div>
                     <h2 className="text-neutral-50 text-center font-semibold w-3/4 lg:w-3/5 mx-auto pb-4 tracking-widest text-lg md:text-xl lg:text-2xl">LectorScan, your online gateway to a vast library of manga.</h2>

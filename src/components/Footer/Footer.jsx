@@ -1,29 +1,29 @@
 import logo from "../../assets/img/lectorscan.png"
 function Footer() {
     return (
-        <div className="background-black lg:grid lg:grid-cols-2 lg:items-center lg:gap-4 py-4">
-            <div className="lg:flex lg:order-2 lg:flex-col">
-                <div className="lg:flex lg:justify-around">
+        <div className="background-black lg:grid lg:grid-cols-2 lg:items-center lg:gap-4 py-4 ">
+            <div className="lg:order-2 lg:flex-col justify-start justify-between mx-auto md:w-full">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 place-content-center">
                     <div className="py-5">
-                        <h3 className="hidden text-neutral-50 lg:block lg:text-lg font-bold tracking-widest mb-2">Community</h3>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Product Declarations</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Terms Of Use</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Privacy Policy</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Partners</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Others</a></h2>
+                        <h3 className="text-center md:text-left text-neutral-50 lg:block text-lg font-bold tracking-widest mb-2">Community</h3>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Product Declarations</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Terms Of Use</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Privacy Policy</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Partners</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Others</a></h2>
+                    </div>
+                    <div className="my-5 ">
+                        <h3 className="text-center md:text-left text-neutral-50 lg:block text-lg font-bold tracking-widest mb-2">Company</h3>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">About Us</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Contacts</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Pricing</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Faq</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Help</a></h2>
                     </div>
                     <div className="my-5">
-                        <h3 className="hidden text-neutral-50 lg:block lg:text-lg font-bold tracking-widest mb-2">Company</h3>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">About Us</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Contacts</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Pricing</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Faq</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Help</a></h2>
-                    </div>
-                    <div className="my-5">
-                        <h3 className="hidden text-neutral-50 lg:block lg:text-lg font-bold tracking-widest mb-2">Information</h3>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Blog</a></h2>
-                        <h2 className="text-base text-center lg:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Podcasts</a></h2>
+                        <h3 className="text-neutral-50 text-center md:text-left lg:block text-lg font-bold tracking-widest mb-2">Information</h3>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Blog</a></h2>
+                        <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Podcasts</a></h2>
                     </div>
                 </div>
 
