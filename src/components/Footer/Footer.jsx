@@ -1,9 +1,9 @@
 import logo from "../../assets/img/lectorscan.png"
 function Footer() {
     return (
-        <div className="background-black lg:grid lg:grid-cols-2 lg:items-center lg:gap-4 py-4 ">
-            <div className="lg:order-2 lg:flex-col justify-start justify-between mx-auto md:w-full">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 place-content-center">
+        <div className="background-black lg:grid lg:grid-cols-2 lg:items-center lg:gap-4 py-4">
+            <div className="lg:order-2 lg:flex-col flex justify-around ">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-16 lg:gap-10 ">
                     <div className="py-5">
                         <h3 className="text-center md:text-left text-neutral-50 lg:block text-lg font-bold tracking-widest mb-2">Community</h3>
                         <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Product Declarations</a></h2>
@@ -12,7 +12,7 @@ function Footer() {
                         <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Partners</a></h2>
                         <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Others</a></h2>
                     </div>
-                    <div className="my-5 ">
+                    <div className="my-5 col-span-1 mx-auto">
                         <h3 className="text-center md:text-left text-neutral-50 lg:block text-lg font-bold tracking-widest mb-2">Company</h3>
                         <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">About Us</a></h2>
                         <h2 className="text-base text-center md:text-left text-neutral-50 py-1 lg:text-lg tracking-widest hover:text-red-600"><a href="#">Contacts</a></h2>
@@ -40,15 +40,15 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="lg:flex lg:flex-col lg:order-1">
-                <div className="lg:flex lg:flex-col">
+            <div className="lg:flex lg:flex-col lg:order-1 h-full">
+                <div className="lg:flex lg:flex-col h-full justify-between">
                     <div className="hidden lg:block">
                         <img src={logo} alt="logo_lectorscan" className="w-[80px] h-[80px] lg:w-[150px] lg:h-[150px] mx-auto" />
                         <p className="lg:text-lg lg:pl-7 text-neutral-50 ">LectorScan is an online platform that provides access to an extensive library of manga, 
                         allowing users to read chapters from their favorite series.
                         </p>
                     </div>
-                    <ul className="flex justify-between md:sjustfiy-around md:w-3/6 w-4/6 mx-auto py-2 lg:my-7 lg:mx-auto lg:pl-7 ">
+                    <ul className="flex justify-between md:justify-around md:w-3/6 w-4/6 mx-auto py-2  lg:mx-auto lg:pl-7 ">
                         <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-facebook text-lg'></i></li>
                         <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-instagram text-lg'></i></li>
                         <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-twitter text-lg'></i></li>
