@@ -1,14 +1,15 @@
-import ChapterBerserk from "../data/ChapterBerserk.json";
-import ChapterOnePiece from "../data/ChapterOnePiece.json";
-import ChapterChainsawMan from "../data/ChapterChainsawMan.json";
-import ChapterJujutsuKaizen from "../data/ChapterJujutsuKaizen.json"
+import MangaData from "../utils/joinsImport.js";
 
 function PopularManga() {
+
+    const { BerserkData, OnePieceData, ChainSawManData, JujutsuKaizenData } = MangaData;
+
     const mangaData =
-        [...ChapterBerserk.CollectionBerserk,
-        ...ChapterOnePiece.CollectionOnePiece,
-        ...ChapterChainsawMan.CollectionChainsawMan,
-        ...ChapterJujutsuKaizen.CollectionJujutsuKaizen,
+        [
+        ...BerserkData.CollectionBerserk,
+        ...OnePieceData.CollectionOnePiece,
+        ...ChainSawManData.CollectionChainsawMan,
+        ...JujutsuKaizenData.CollectionJujutsuKaizen,
         ];
 
     return (
