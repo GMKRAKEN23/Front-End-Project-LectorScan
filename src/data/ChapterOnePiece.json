@@ -1,9 +1,10 @@
 {
     "CollectionOnePiece" : [
         {
-            "title": "One piece",
+            "title": "One Piece",
             "volume" : "107 Vol.",
-            "language" : "Eng",
+            "language" : "En",
+            "description" : "The story follows the adventures of Monkey D. Luffy, a young boy who dreams of becoming the greatest pirate in the world by finding the legendary treasure known as the ...",
             "chapter" : [
                 {
                     "number" : 1,

@@ -44,11 +44,11 @@ function Footer() {
                 <div className="lg:flex lg:flex-col h-full justify-between">
                     <div className="hidden lg:block">
                         <img src={logo} alt="logo_lectorscan" className="w-[80px] h-[80px] lg:w-[150px] lg:h-[150px] mx-auto" />
-                        <p className="lg:text-lg lg:pl-7 text-neutral-50 ">LectorScan is an online platform that provides access to an extensive library of manga, 
+                        <p className="lg:text-lg lg:pl-7 text-neutral-50 mx-5">LectorScan is an online platform that provides access to an extensive library of manga, 
                         allowing users to read chapters from their favorite series.
                         </p>
                     </div>
-                    <ul className="flex justify-between md:justify-around md:w-3/6 w-4/6 mx-auto py-2  lg:mx-auto lg:pl-7 ">
+                    <ul className="flex justify-between md:justify-around md:w-3/6 w-4/6 mx-auto py-2 lg:mx-auto lg:py-10">
                         <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-facebook text-lg'></i></li>
                         <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-instagram text-lg'></i></li>
                         <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-twitter text-lg'></i></li>

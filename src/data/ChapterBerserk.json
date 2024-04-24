@@ -3,7 +3,8 @@
         {
             "title": "Berserk",
             "volume" : "62 Vol.",
-            "language" : "Eng",
+            "language" : "En",
+            "description" : "The story follows the adventure of Guts, a solitary warrior whose past is marked by dark and tragic events. Navigating a medieval world steeped in violence and magic...",
             "chapter" : [
                 {
                     "number" : 1,
