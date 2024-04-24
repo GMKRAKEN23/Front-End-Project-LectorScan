@@ -5,6 +5,7 @@
             "volume" : "10 Vol.",
             "language" : "En",
             "description" : "The story revolves around Yuji Itadori, a high school student with impressive physical abilities. When a cursed object containing a dangerous curse  is accidentally unleashed... ",
+            "image" : "/assets/images/JujutsuKaizen/jujutsu_kaizen.jpg",
             "chapter" : [
                 {
                     "number" : 1,

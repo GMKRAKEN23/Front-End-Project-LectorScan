@@ -4,6 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import PromotionChapter from "../../components/PromotionChapter";
 import ServiceDescription from "../../components/ServiceDescription";
 import PopularManga from "../../components/PopularManga";
+import RecentlyAddedManga from "../../components/RecentlyAddedManga";
 
 
 function Content() {
@@ -13,6 +14,7 @@ function Content() {
             <ImageSlider />
             <PopularManga />
             <ServiceDescription />
+            <RecentlyAddedManga />
             <PromotionChapter />
             <Footer />
             <Copyright />

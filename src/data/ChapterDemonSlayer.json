@@ -1,11 +1,10 @@
 {
-    "CollectionBerserk" : [
+    "CollectionDemonSlayer" : [
         {
-            "title": "Berserk",
-            "volume" : "62 Vol.",
+            "title": "Demon Slayer",
+            "volume" : "120 Vol.",
             "language" : "En",
             "description" : "The story follows the adventure of Guts, a solitary warrior whose past is marked by dark and tragic events. Navigating a medieval world steeped in violence and magic...",
-            "image" : "/assets/images/Bersek/berserk_one.jpg",
             "chapter" : [
                 {
                     "number" : 1,

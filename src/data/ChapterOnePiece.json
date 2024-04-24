@@ -5,6 +5,7 @@
             "volume" : "107 Vol.",
             "language" : "En",
             "description" : "The story follows the adventures of Monkey D. Luffy, a young boy who dreams of becoming the greatest pirate in the world by finding the legendary treasure known as the ...",
+            "image" : "/assets/images/OnePiece/one_piece.jpg",
             "chapter" : [
                 {
                     "number" : 1,
