@@ -4,24 +4,24 @@ function RecentlyAddedManga () {
 
     const { 
         BerserkData, 
-        OnePieceData,
-        ChainSawManData, 
+        OnePieceData,      
+        DBSData,
         JujutsuKaizenData, 
         DemonSlayerData, 
         JojoAdventureData, 
         MyHeroAcademiaData, 
-        BleachData 
+        BleachData,
     } = MangaData;
 
     const mangaData =
         [
         ...JojoAdventureData.CollectionJojoBizarreAdventure,
-        ...BerserkData.CollectionBerserk,
         ...OnePieceData.CollectionOnePiece,
-        ...ChainSawManData.CollectionChainsawMan,
+        ...DBSData.CollectionDragonBallSuper,
         ...JujutsuKaizenData.CollectionJujutsuKaizen,
         ...DemonSlayerData.CollectionDemonSlayer,
-        ...MyHeroAcademiaData.CollectionMyHeroAcademia,
+        ...MyHeroAcademiaData.CollectionMyHeroAcademia, 
+        ...BerserkData.CollectionBerserk,
         ...BleachData.CollectionBleach,
         ];
 

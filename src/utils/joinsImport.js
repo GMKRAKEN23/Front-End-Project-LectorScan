@@ -6,6 +6,7 @@ import DemonSlayerData from "../data/ChapterDemonSlayer.json";
 import JojoAdventureData from "../data/ChapterJojoAdventure.json"
 import MyHeroAcademiaData from "../data/ChapterMyHeroAcademia.json";
 import BleachData from "../data/ChapterBleach.json";
+import DBSData from "../data/ChapterDBS.json";
 
 const MangaData = { 
     BerserkData, 
@@ -16,6 +17,7 @@ const MangaData = {
     JojoAdventureData, 
     MyHeroAcademiaData,
     BleachData,
+    DBSData,
 };
 
 export default MangaData;
