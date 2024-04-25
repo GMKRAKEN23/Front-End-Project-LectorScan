@@ -7,10 +7,11 @@
             "description" : "Determined to avenge his family and find a way to turn his sister back into a human, Tanjiro becomes a demon slayer and joins the Demon Slayer Corps, a group of skilled warriors...",
             "chapter" : [
                 {
-                    "number" : 1,
+                    "number" : 87,
                     "image" : "/assets/images/DemonSlayer/demon.jpeg",
                     "title" : "Blood Warrior",
-                    "pages" : 13
+                    "description" : "Where humanity is besieged by demonic forces, a new hero emerges to take up the mantle of the legendary...",
+                    "pages" : 32
                 }
             ]
         }

@@ -8,9 +8,10 @@
             "image" : "/assets/images/ChainsawMan/chainsaw_man.jpeg",
             "chapter" : [
                 {
-                    "number" : 1,
+                    "number" : 123,
                     "image" : "/assets/images/Bleach/bleach.jpg",
-                    "title" : "The dog demon",
+                    "title" : "Pain of the shinigami",
+                    "description" : "As tensions escalate in the wake of Aizen's betrayal and the emergence of the Espada, the captains of...",
                     "pages" : 75
                 }
             ]

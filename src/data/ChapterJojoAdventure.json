@@ -7,9 +7,10 @@
             "description" : "The story follows the adventure of Guts, a solitary warrior whose past is marked by dark and tragic events. Navigating a medieval world steeped in violence and magic...",
             "chapter" : [
                 {
-                    "number" : 1,
+                    "number" : 12,
                     "image" : "/assets/images/JojoAdventure/jojo.jpg",
-                    "title" : "Blood Warrior",
+                    "title" : "Stand green and fire!",
+                    "description" : "As they investigate a series of strange disappearances, Jotaro and his team uncover the existence of an ancient artifact...",
                     "pages" : 13
                 }
             ]

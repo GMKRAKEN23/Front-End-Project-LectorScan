@@ -8,10 +8,11 @@
             "image" : "/assets/images/Bersek/berserk.jpg",
             "chapter" : [
                 {
-                    "number" : 1,
+                    "number" : 10,
                     "image" : "/assets/images/Bersek/berserk_one.jpg",
-                    "title" : "Blood Warrior",
-                    "pages" : 13
+                    "title" : "The white knight",
+                    "description" : "He arrived with his powerful and long sword to save Guts as well as the cursed fairy, who cannot resolve...",
+                    "pages" : 89
                 }
             ]
         }

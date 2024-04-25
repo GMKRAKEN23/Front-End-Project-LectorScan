@@ -1,0 +1,19 @@
+{
+    "CollectionVindlandSaga" : [
+        {
+            "title": "Vinland Saga",
+            "volume" : "46 Vol.",
+            "language" : "En",
+            "description" : "Set in the early 11th century, it follows the journey of Thorfinn, a young Icelandic boy with a thirst for vengeance against the man who killed his father, Askeladd...",
+            "chapter" : [
+                {
+                    "number" : 26,
+                    "image" : "/assets/images/VinlandSaga/vinland_saga_one.jpg",
+                    "title" : "Tragedy of valhalla",
+                    "description" : "At the heart of the tragedy lies a long-standing feud between two noble houses, the House of Veridian and the House of...",
+                    "pages" : 55
+                }
+            ]
+        }
+    ]
+}

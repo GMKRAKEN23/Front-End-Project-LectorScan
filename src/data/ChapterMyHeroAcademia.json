@@ -7,10 +7,11 @@
             "description" : "the story follows Izuku Midoriya, a Quirkless boy with dreams of becoming a hero like his idol, All Might, the Symbol of Peace. Despite lacking powers, Midoriya's heroic spirit catches the...",
             "chapter" : [
                 {
-                    "number" : 1,
+                    "number" : 62,
                     "image" : "/assets/images/MyHeroAcademia/my_hero_academia.jpg",
-                    "title" : "Blood Warrior",
-                    "pages" : 13
+                    "title" : "A secret revealed!",
+                    "description" : "As tensions rise and alliances are tested, rumors begin to swirl about a hidden conspiracy lurking within the ranks of heroes...",
+                    "pages" : 44
                 }
             ]
         }

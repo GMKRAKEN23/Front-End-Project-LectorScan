@@ -8,9 +8,10 @@
             "image" : "/assets/images/OnePiece/one_piece.jpg",
             "chapter" : [
                 {
-                    "number" : 1,
+                    "number" : 756,
                     "image" : "/assets/images/OnePiece/kizaru.jpg",
-                    "title" : "Clash Luffy vs Kaido",
+                    "title" : "Clash : Luffy vs Kizaru",
+                    "description" : "The Straw Hat Pirates find themselves in the midst of a high stakes battle as they encounter Admiral Kizaru...",
                     "pages" : 56
                 }
             ]
