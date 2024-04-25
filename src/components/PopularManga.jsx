@@ -2,7 +2,7 @@ import MangaData from "../utils/joinsImport.js";
 
 function PopularManga() {
 
-    const { BerserkData, OnePieceData, ChainSawManData, JujutsuKaizenData } = MangaData;
+    const { BerserkData, OnePieceData, ChainSawManData, JujutsuKaizenData} = MangaData;
 
     const mangaData =
         [

@@ -4,11 +4,11 @@
             "title": "Demon Slayer",
             "volume" : "120 Vol.",
             "language" : "En",
-            "description" : "The story follows the adventure of Guts, a solitary warrior whose past is marked by dark and tragic events. Navigating a medieval world steeped in violence and magic...",
+            "description" : "Determined to avenge his family and find a way to turn his sister back into a human, Tanjiro becomes a demon slayer and joins the Demon Slayer Corps, a group of skilled warriors...",
             "chapter" : [
                 {
                     "number" : 1,
-                    "image" : "/assets/images/Bersek/berserk_one.jpg",
+                    "image" : "/assets/images/DemonSlayer/demon.jpeg",
                     "title" : "Blood Warrior",
                     "pages" : 13
                 }

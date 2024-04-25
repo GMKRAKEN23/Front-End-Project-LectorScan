@@ -4,11 +4,11 @@
             "title": "My hero Academia",
             "volume" : "76 Vol.",
             "language" : "En",
-            "description" : "The story follows the adventure of Guts, a solitary warrior whose past is marked by dark and tragic events. Navigating a medieval world steeped in violence and magic...",
+            "description" : "the story follows Izuku Midoriya, a Quirkless boy with dreams of becoming a hero like his idol, All Might, the Symbol of Peace.",
             "chapter" : [
                 {
                     "number" : 1,
-                    "image" : "/assets/images/Bersek/berserk_one.jpg",
+                    "image" : "/assets/images/MyHeroAcademia/my_hero_academia.jpg",
                     "title" : "Blood Warrior",
                     "pages" : 13
                 }

@@ -1,0 +1,19 @@
+{
+    "CollectionBleach" : [
+        {
+            "title": "Bleach",
+            "volume" : "23 Vol.",
+            "language" : "En",
+            "description" : "After an incident, Rukia unintentionally transfers some of her Shinigami powers to Ichigo, allowing him to become a Shinigami himself. Thus, Ichigo finds himself thrust into the world of Shinigami...",
+            "image" : "/assets/images/ChainsawMan/chainsaw_man.jpeg",
+            "chapter" : [
+                {
+                    "number" : 1,
+                    "image" : "/assets/images/ChainsawMan/chainsaw_man.jpeg",
+                    "title" : "The dog demon",
+                    "pages" : 75
+                }
+            ]
+        }
+    ]
+}

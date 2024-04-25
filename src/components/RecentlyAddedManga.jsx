@@ -2,14 +2,27 @@ import MangaData from "../utils/joinsImport.js";
 
 function RecentlyAddedManga () {
 
-    const { BerserkData, OnePieceData, ChainSawManData, JujutsuKaizenData } = MangaData;
+    const { 
+        BerserkData, 
+        OnePieceData,
+        ChainSawManData, 
+        JujutsuKaizenData, 
+        DemonSlayerData, 
+        JojoAdventureData, 
+        MyHeroAcademiaData, 
+        BleachData 
+    } = MangaData;
 
     const mangaData =
         [
+        ...JojoAdventureData.CollectionJojoBizarreAdventure,
         ...BerserkData.CollectionBerserk,
         ...OnePieceData.CollectionOnePiece,
         ...ChainSawManData.CollectionChainsawMan,
         ...JujutsuKaizenData.CollectionJujutsuKaizen,
+        ...DemonSlayerData.CollectionDemonSlayer,
+        ...MyHeroAcademiaData.CollectionMyHeroAcademia,
+        ...BleachData.CollectionBleach,
         ];
 
     return (
