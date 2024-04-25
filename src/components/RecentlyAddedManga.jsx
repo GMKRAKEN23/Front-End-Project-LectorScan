@@ -26,7 +26,7 @@ function RecentlyAddedManga() {
         ];
 
     return (
-        <div className="mt-10 mb-20">
+        <div className="hidden md:block mt-10 mb-20">
             <div className="flex flex-col justify-start">
                 <div className="h-auto sm:flex">
                     <h2 className='text-neutral-50 text-center tracking-widest font-bold sm:pl-12 py-5 text-2xl lg:text-3xl mb-5'>Recently Added</h2>
