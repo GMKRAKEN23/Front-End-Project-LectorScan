@@ -12,6 +12,13 @@
                     "title" : "Blood Warrior",
                     "description" : "Where humanity is besieged by demonic forces, a new hero emerges to take up the mantle of the legendary...",
                     "pages" : 32
+                },
+                {
+                    "number" : 50,
+                    "image" : "/assets/images/DemonSlayer/demon_two.jpg",
+                    "title" : "The red demon",
+                    "description" : "Where humanity is besieged by demonic forces, a new hero emerges to take up the mantle of the legendary...",
+                    "pages" : 38
                 }
             ]
         }

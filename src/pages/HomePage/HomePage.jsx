@@ -5,6 +5,7 @@ import PromotionChapter from "../../components/PromotionChapter";
 import ServiceDescription from "../../components/ServiceDescription";
 import PopularManga from "../../components/PopularManga";
 import RecentlyAddedManga from "../../components/RecentlyAddedManga";
+import MangaList from "../../components/MangaList";
 
 
 function Content() {
@@ -16,6 +17,7 @@ function Content() {
             <ServiceDescription />
             <RecentlyAddedManga />
             <PromotionChapter />
+            <MangaList />
             <Footer />
             <Copyright />
         </div>

@@ -12,6 +12,13 @@
                     "title" : "Tragedy of valhalla",
                     "description" : "At the heart of the tragedy lies a long-standing feud between two noble houses, the House of Veridian and the House of...",
                     "pages" : 55
+                },
+                {
+                    "number" : 34,
+                    "image" : "/assets/images/VinlandSaga/vinland_saga_one.jpg",
+                    "title" : "The final fight",
+                    "description" : "At the heart of the tragedy lies a long-standing feud between two noble houses, the House of Veridian and the House of...",
+                    "pages" : 67
                 }
             ]
         }

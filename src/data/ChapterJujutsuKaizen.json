@@ -13,6 +13,13 @@
                     "title" : "The power of fire",
                     "description" : "",
                     "pages" : 56
+                },
+                {
+                    "number" : 4,
+                    "image" : "/assets/images/JujutsuKaizen/jujutsu_kaizen_two.jpg",
+                    "title" : "Power of Sukuna",
+                    "description" : "",
+                    "pages" : 71
                 }
             ]
         }
