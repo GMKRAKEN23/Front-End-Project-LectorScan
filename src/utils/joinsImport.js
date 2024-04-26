@@ -8,6 +8,11 @@ import MyHeroAcademiaData from "../data/ChapterMyHeroAcademia.json";
 import BleachData from "../data/ChapterBleach.json";
 import DBSData from "../data/ChapterDBS.json";
 import VinlandSagaData from "../data/ChapterVinlandSaga.json";
+import SNKData from "../data/ChapterSNK.json";
+import BorutoData from "../data/ChapterBoruto.json";
+import DeathNoteData from "../data/ChapterDeathNote.json";
+import FMAData from "../data/ChapterFMA.json";
+import OnePunchManData from "../data/ChapterOnePunchMan.json"
 
 const MangaData = { 
     BerserkData, 
@@ -20,6 +25,11 @@ const MangaData = {
     BleachData,
     DBSData,
     VinlandSagaData,
+    SNKData,
+    BorutoData,
+    DeathNoteData,
+    FMAData,
+    OnePunchManData,
 };
 
 export default MangaData;

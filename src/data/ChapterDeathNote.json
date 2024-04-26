@@ -1,0 +1,20 @@
+{
+    "CollectionDeathNote" : [
+        {
+            "title": "Death Note",
+            "volume" : "76 Vol.",
+            "language" : "En",
+            "description" : "The notebook grants its user the ability to kill anyone whose name they write in it, as long as they have seen the person's face...",
+            "image" : "",
+            "chapter" : [
+                {
+                    "number" : 5,
+                    "image" : "/assets/images/DeathNote/death_note_one.jpg",
+                    "title" : "The notebook of death",
+                    "description" : "As tensions escalate in the wake of Aizen's betrayal and the emergence of the Espada, the captains of...",
+                    "pages" : 32
+                }
+            ]
+        }
+    ]
+}

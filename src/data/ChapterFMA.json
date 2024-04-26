@@ -1,0 +1,20 @@
+{
+    "CollectionFMA" : [
+        {
+            "title": "FMA",
+            "volume" : "42 Vol.",
+            "language" : "En",
+            "description" : "Edward and Alphonse Elric, who use alchemy in an attempt to resurrect their deceased mother...",
+            "image" : "",
+            "chapter" : [
+                {
+                    "number" : 123,
+                    "image" : "/assets/images/FMA/FMA_one.jpg",
+                    "title" : "Pride vs Envy",
+                    "description" : "As tensions escalate in the wake of Aizen's betrayal and the emergence of the Espada, the captains of...",
+                    "pages" : 75
+                }
+            ]
+        }
+    ]
+}

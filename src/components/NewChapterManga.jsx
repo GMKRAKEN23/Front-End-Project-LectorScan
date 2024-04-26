@@ -4,20 +4,20 @@ function NewChapterManga(){
     const numbers = [1, 2, 3, 4, 5];
 
     const {
-        OnePieceData,
-        DBSData,
-        VinlandSagaData,
-        DemonSlayerData,
-        JujutsuKaizenData,
+        SNKData,
+        BorutoData,
+        DeathNoteData,
+        FMAData,
+        OnePunchManData,
     } = MangaData;
 
     const mangaData =
         [
-            ...OnePieceData.CollectionOnePiece,          
-            ...DemonSlayerData.CollectionDemonSlayer,
-            ...JujutsuKaizenData.CollectionJujutsuKaizen,
-            ...DBSData.CollectionDragonBallSuper,
-            ...VinlandSagaData.CollectionVindlandSaga,
+            ...SNKData.CollectionSNK,
+            ...BorutoData.CollectionBoruto,  
+            ...DeathNoteData.CollectionDeathNote,      
+            ...FMAData.CollectionFMA,
+            ...OnePunchManData.CollectionOnePunchMan,  
         ];
 
 
@@ -30,14 +30,14 @@ function NewChapterManga(){
                     <div className=""><span className="sm:text-7xl text-6xl text-red-600">{numbers[index]}</span></div>
                     <div className="flex jusitfy-center items-center">
                         <div className="h-full mx-2">
-                            <img className="w-28 h-24 object-cover" src={`/src/${manga.chapter[1].image}`} alt="popular_manga" />
+                            <img className="w-28 h-24 object-cover" src={`/src/${manga.chapter[0].image}`} alt="new_chapter_manga" />
                         </div>
                         <div className="flex flex-col">
                             <h3 className="text-neutral-50 tracking-widest text-base font-bold text-nowrap">{manga.title}</h3>
-                            <h4 className="font-bold text-xs text-neutral-50 tracking-widest py-4">{manga.chapter[1].title}</h4>
+                            <h4 className="font-bold text-xs text-neutral-50 tracking-widest py-4">{manga.chapter[0].title}</h4>
                             <div className="flex py-1">
-                            <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border mr-2">n°{manga.chapter[1].number}</p>
-                            <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border">P. {manga.chapter[1].pages}</p>
+                            <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border mr-2">n°{manga.chapter[0].number}</p>
+                            <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border">P. {manga.chapter[0].pages}</p>
                             </div>
                         </div>
                     </div>

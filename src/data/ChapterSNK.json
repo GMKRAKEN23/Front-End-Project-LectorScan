@@ -1,0 +1,19 @@
+{
+    "CollectionSNK" : [
+        {
+            "title": "SNK",
+            "volume" : "60 Vol.",
+            "language" : "En",
+            "description" : " a world where humanity resides within enormous walled cities to protect themselves from gigantic humanoid creatures known as Titans. ",
+            "chapter" : [
+                {
+                    "number" : 3,
+                    "image" : "/assets/images/SNK/SNK_one.jpg",
+                    "title" : "The humanity",
+                    "description" : "Where humanity is besieged by demonic forces, a new hero emerges to take up the mantle of the legendary...",
+                    "pages" : 102
+                }
+            ]
+        }
+    ]
+}

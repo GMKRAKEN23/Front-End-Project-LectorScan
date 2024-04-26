@@ -1,0 +1,20 @@
+{
+    "CollectionBoruto" : [
+        {
+            "title": "Boruto",
+            "volume" : "190 Vol.",
+            "language" : "En",
+            "description" : "It follows the journey of Boruto Uzumaki, the son of Naruto Uzumaki, as he navigates the ninja world...",
+            "image" : "",
+            "chapter" : [
+                {
+                    "number" : 123,
+                    "image" : "/assets/images/Boruto/boruto_one.jpg",
+                    "title" : "The demon susano",
+                    "description" : "As tensions escalate in the wake of Aizen's betrayal and the emergence of the Espada, the captains of...",
+                    "pages" : 32
+                }
+            ]
+        }
+    ]
+}

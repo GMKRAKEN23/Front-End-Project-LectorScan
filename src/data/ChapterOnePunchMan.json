@@ -1,0 +1,20 @@
+{
+    "CollectionOnePunchMan" : [
+        {
+            "title": "One Punch Man",
+            "volume" : "38 Vol.",
+            "language" : "En",
+            "description" : "The story revolves around Saitama, a seemingly ordinary man who becomes a superhero for fun....",
+            "image" : "",
+            "chapter" : [
+                {
+                    "number" : 5,
+                    "image" : "/assets/images/OnePunchMan/one_punch_man_one.jpg",
+                    "title" : "The cyborg : Genos !",
+                    "description" : "As tensions escalate in the wake of Aizen's betrayal and the emergence of the Espada, the captains of...",
+                    "pages" : 78
+                }
+            ]
+        }
+    ]
+}
