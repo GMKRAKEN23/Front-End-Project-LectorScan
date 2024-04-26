@@ -66,6 +66,46 @@ body{
   animation: moving 2s linear infinite;
 }
 
+.movingOpacity{
+  animation: 2s invisible;
+  animation-iteration-count: infinite;
+}
+
+.float{
+  animation: 2s float;
+  animation-iteration-count: infinite;
+} 
+
+@keyframes float{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes invisible{
+  0%{
+      opacity: 1;
+  }
+  25%{
+      opacity: 0.5;
+  }
+  50%{
+      opacity: 0;
+  }
+  75%{
+      opacity: 0.5;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
 @keyframes moving{
   0%{
       left: -35px;

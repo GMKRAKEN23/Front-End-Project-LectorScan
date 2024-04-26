@@ -48,7 +48,7 @@ function RecentlyAddedManga() {
                                 </div>
 
                                 <div className="flex flex-col justify-between">
-                                    <h3 className="font-bold text-base text-neutral-50 tracking-widest">{manga.chapter[0].title}</h3>                                  
+                                    <h3 className="font-bold text-base text-neutral-50 tracking-widest py-2">{manga.chapter[0].title}</h3>                                  
                                     <div className="flex py-1">
                                         <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border mr-2">n°{manga.chapter[0].number}</p>
                                         <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border mr-2">{manga.language}</p>

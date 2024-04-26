@@ -23,9 +23,10 @@ function NewChapterManga(){
 
     return (
         <div className="hidden sm:block">
-            <div><h2 className="text-neutral-50 text-center tracking-widest font-bold py-5 text-2xl">New chapter Manga</h2></div>
+            <div><h2 className="text-neutral-50 text-center tracking-widest font-bold py-5 text-3xl">New chapter Manga</h2></div>
             {mangaData.map(( manga, index) => (
-                <div key={index} className="flex items-center card w-[21rem] h-32 sm:w-96 sm:h-32 border-2 rounded-xl my-5 px-4  bg-[#1d1e20] cursor-pointer">
+                <div key={index} className="flex items-center card w-[21rem] h-32 sm:w-96 sm:h-32 border-2 rounded-xl my-5 px-4 bg-[#1d1e20] cursor-pointer  hover:scale-[102%] transform transition duration-300 
+                ease-in-out shadow_custom_red-20">
                     <div className=""><span className="sm:text-7xl text-6xl text-red-600">{numbers[index]}</span></div>
                     <div className="flex jusitfy-center items-center">
                         <div className="h-full mx-2">
