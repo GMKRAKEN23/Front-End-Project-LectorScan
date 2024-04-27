@@ -38,4 +38,5 @@ Currently, LectorScan does not use external APIs but utilizes JSON files to stor
 - Favorite Card
 - Form Validation
 - Transition effects
+- Cookies
 - ...
