@@ -3,6 +3,7 @@
 
 ## Description 
 
+
 ## Technologies
 1. JSX
 2. CSS
@@ -10,3 +11,19 @@
 4. CANVA
 5. VITE
 6. REACT
+
+## Libraries
+1. SWIPER.JS
+
+## Features 
+- ToggleMenu
+- Carousel
+- Timer
+
+## Features To Do
+- Loader
+- Popup Validation
+- Favorite Card
+- Form Validation
+- Transition effects
+- ...
