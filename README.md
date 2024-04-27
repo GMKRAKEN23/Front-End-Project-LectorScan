@@ -1,5 +1,5 @@
 # Front-End-Project-LectorScan
-![LectorScan](https://github.com/GMKRAKEN23/Front-End-Project-LectorScan/assets/149949090/85500518-9db7-4169-b115-dae9f8ab502b)
+![LectorScan](https://github.com/GMKRAKEN23/Front-End-Project-LectorScan/assets/149949090/417e59ef-729b-4e41-8a74-43700699b12e)
 
 ## Description 
 
