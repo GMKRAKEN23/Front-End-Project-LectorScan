@@ -1,7 +1,7 @@
 import logo from "../../assets/img/lectorscan.png"
 function Footer() {
     return (
-        <div className="background-black lg:grid lg:grid-cols-2 lg:items-center lg:gap-4 py-4">
+        <div className="background-black lg:grid lg:grid-cols-2 lg:items-center lg:gap-4 py-4 ">
             <div className="lg:order-2 lg:flex-col flex justify-around ">
                 <div className="grid grid-cols-1 md:grid-cols-3 md:gap-16 lg:gap-10 ">
                     <div className="py-5">
@@ -44,7 +44,7 @@ function Footer() {
                 <div className="lg:flex lg:flex-col h-full justify-between">
                     <div className="hidden lg:block">
                         <img src={logo} alt="logo_lectorscan" className="w-[80px] h-[80px] lg:w-[150px] lg:h-[150px] mx-auto" />
-                        <p className="lg:text-lg lg:pl-7 text-neutral-50 mx-5">LectorScan is an online platform that provides access to an extensive library of manga, 
+                        <p className="lg:text-lg lg:pl-7 text-neutral-50 mx-auto max-w-[500px] tracking-widest">LectorScan is an online platform that provides access to an extensive library of manga, 
                         allowing users to read chapters from their favorite series.
                         </p>
                     </div>

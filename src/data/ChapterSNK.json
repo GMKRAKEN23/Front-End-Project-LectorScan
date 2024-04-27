@@ -5,6 +5,8 @@
             "volume" : "60 Vol.",
             "language" : "En",
             "description" : " a world where humanity resides within enormous walled cities to protect themselves from gigantic humanoid creatures known as Titans. ",
+            "imageCollection" : "/assets/images/SNK/SNK_collection.jpg",
+            "completed": true,
             "chapter" : [
                 {
                     "number" : 3,

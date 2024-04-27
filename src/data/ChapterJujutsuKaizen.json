@@ -6,6 +6,8 @@
             "language" : "En",
             "description" : "The story revolves around Yuji Itadori, a high school student with impressive physical abilities. When a cursed object containing a dangerous curse  is accidentally unleashed... ",
             "image" : "/assets/images/JujutsuKaizen/jujutsu_kaizen.jpg",
+            "imageCollection" : "/assets/images/JujutsuKaizen/jujutsu_kaizen_collection.jpg",
+            "completed": false,
             "chapter" : [
                 {
                     "number" : 1,

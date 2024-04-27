@@ -5,8 +5,8 @@ function CompletedManga() {
 
     const {
         OnePieceData,
-        DBSData,
-        VinlandSagaData,
+        SNKData,
+        BleachData,
         DemonSlayerData,
         JujutsuKaizenData,
     } = MangaData;
@@ -16,28 +16,28 @@ function CompletedManga() {
             ...OnePieceData.CollectionOnePiece,          
             ...DemonSlayerData.CollectionDemonSlayer,
             ...JujutsuKaizenData.CollectionJujutsuKaizen,
-            ...DBSData.CollectionDragonBallSuper,
-            ...VinlandSagaData.CollectionVindlandSaga,
+            ...SNKData.CollectionSNK,
+            ...BleachData.CollectionBleach,
         ];
 
 
     return (
         <div className="hidden sm:block">
-            <div><h2 className="text-neutral-50 text-center tracking-widest font-bold py-5 text-3xl">Best chapter Manga</h2></div>
+            <div><h2 className="text-neutral-50 text-center tracking-widest font-bold py-5 text-3xl">Completed Manga</h2></div>
             {mangaData.map(( manga, index) => (
                 <div key={index} className="flex items-center w-auto h-32 sm:w-96 sm:h-32 border-2 rounded-xl my-5 px-4  bg-[#1d1e20] cursor-pointer hover:scale-[102%] transform transition duration-300 
                 ease-in-out shadow_custom_red-20">
                     <div className=""><span className="sm:text-7xl text-6xl text-red-600">{numbers[index]}</span></div>
                     <div className="flex jusitfy-center items-center">
                         <div className="h-full mx-2">
-                            <img className="w-28 h-24 object-cover" src={`/src/${manga.chapter[1].image}`} alt="popular_manga" />
+                            <img className="w-28 h-24 object-cover" src={`/src/${manga.imageCollection}`} alt="Completed manga" />
                         </div>
                         <div className="flex flex-col">
                             <h3 className="text-neutral-50 tracking-widest text-base font-bold text-nowrap">{manga.title}</h3>
-                            <h4 className="font-bold text-xs text-neutral-50 tracking-widest py-4">{manga.chapter[1].title}</h4>
+                            <h4 className="font-bold text-xs text-neutral-50 tracking-widest rounded p-1 bg-red-600 my-3 w-28 text-center border">{manga.completed ? 'Completed' : 'Incompleted'}</h4>
                             <div className="flex py-1">
-                            <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border mr-2">n°{manga.chapter[1].number}</p>
-                            <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border">P. {manga.chapter[1].pages}</p>
+                            <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border mr-2">n°{manga.volume}</p>
+                            <p className="text-gray-700 text-xs text-neutral-50 tracking-widest bg-red-600 px-2 border">{manga.language}</p>
                             </div>
                         </div>
                     </div>

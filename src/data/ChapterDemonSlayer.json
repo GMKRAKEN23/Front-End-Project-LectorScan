@@ -5,6 +5,8 @@
             "volume" : "120 Vol.",
             "language" : "En",
             "description" : "Determined to avenge his family and find a way to turn his sister back into a human, Tanjiro becomes a demon slayer and joins the Demon Slayer Corps, a group of skilled warriors...",
+            "imageCollection" : "/assets/images/DemonSlayer/demon_slayer_collection.jpg",
+            "completed": true,
             "chapter" : [
                 {
                     "number" : 87,
