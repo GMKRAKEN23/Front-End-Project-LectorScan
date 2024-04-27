@@ -17,8 +17,9 @@ Currently, LectorScan does not use external APIs but utilizes JSON files to stor
 2. CSS
 3. TAILWIND CSS
 4. CANVA
-5. VITE
-6. REACT
+5. RESPONSIVE DESIGN 
+6. VITE
+7. REACT
 
 ## Libraries
 1. SWIPER.JS
