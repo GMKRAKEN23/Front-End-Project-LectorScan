@@ -30,7 +30,7 @@ function BestChapterManga() {
                     <div className="mx-1"><span className={`sm:text-7xl text-6xl text-red-600 ${index === 0 ? 'movingOpacity ease-in-out' : ''}`}>{numbers[index]}</span></div>
                     <div className={`flex justify-center items-center ${index == 0 ? 'ml-3' : ''}`}>
                         <div className="h-full w-28 mx-3">
-                            <img className="h-24 object-cover" src={`public/${manga.chapter[1].image}`} alt="best_chapter__manga" />
+                            <img className="h-24 object-cover" src={`../${manga.chapter[1].image}`} alt="best_chapter__manga" />
                         </div>
                         <div className="flex flex-col mx-3">
                             <h3 className="text-neutral-50 tracking-widest text-base font-bold text-nowrap">{manga.title}</h3>
