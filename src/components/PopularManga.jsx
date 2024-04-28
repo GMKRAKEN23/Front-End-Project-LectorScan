@@ -24,7 +24,7 @@ function PopularManga() {
                                 overflow-hidden shadow-lg bg-[#1d1e20] m-3 hover:scale-[102%] transform transition duration-300 
                                 ease-in-out shadow_custom_red-20">
                             <div className="h-full">
-                                <img className="w-full h-full object-cover" src={`/src/${manga.image}`} alt="popular_manga" />
+                                <img className="w-full h-full object-cover" src={`../${manga.image}`} alt="popular_manga" />
                             </div>
 
                             <div className="px-6 flex flex-col justify-between py-5">
