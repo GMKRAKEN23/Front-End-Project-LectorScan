@@ -30,7 +30,7 @@ function CompletedManga() {
                     <div className="mx-1"><span className="sm:text-7xl text-6xl text-red-600">{numbers[index]}</span></div>
                     <div className={`flex justify-center items-center ${index == 0 ? 'ml-4' : ''}`}>
                         <div className="h-full w-28 mx-2">
-                            <img className=" h-24 object-cover" src={`/src${manga.imageCollection}`} alt="completed_manga" />
+                            <img className=" h-24 object-cover" src={`src/${manga.imageCollection}`} alt="completed_manga" />
                         </div>
                         <div className="flex flex-col mx-2">
                             <h3 className="text-neutral-50 tracking-widest text-base font-bold text-nowrap">{manga.title}</h3>
