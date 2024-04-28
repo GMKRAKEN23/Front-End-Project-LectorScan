@@ -1,4 +1,4 @@
-import ImagePromotion from '../assets/images/img_promotion/hunterPromotion.jpg'
+import ImagePromotion from '../../public/assets/img_promotion/hunterPromotion.jpg'
 import TimerPromotionChapter from './TimerPromotionChapter';
 
 function PromotionChapter({ name = "One Piece", chapter = "Chapter 850", time = "15", content = "" }) {
