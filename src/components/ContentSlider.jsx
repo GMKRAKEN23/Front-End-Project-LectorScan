@@ -7,7 +7,7 @@ function ContentSlider({ name = "One Piece", chapter = "", date = "", time = "10
                 <p className="text-base text-center text-neutral-50 md:text-base lg:text-lg tracking-widest">{date}</p>
                 <p className="text-sm mx-3 text-center mx-4  my-3  md:text-base lg:text-left mx-1 text-neutral-50 tracking-widest md:text-lg lg:text-lg">{content}</p>
                 <p className="text-sm text-center text-neutral-50 md:text-base lg:text-xl tracking-widest">Reading time : <span className="bg-red-600 border-2 border-[#0a0a0a] lg:text-lg px-1">{time} min</span></p>
-                <a href="#" className="mt-6 mx-5 py-3 px-2 text-center uppercase text-neutral-50 tracking-widest relative shadow_custom_red button lg:mx-0 lg:my-3 lg:text-2xl lg:py-5 transition duration-700 hover:bg-red-600">
+                <a href="#" className="mt-6 mx-auto w-80 py-3 px-2 text-center uppercase text-neutral-50 tracking-widest relative shadow_custom_red button lg:w-full lg:my-3 lg:text-2xl lg:py-5 transition duration-700 hover:bg-red-600">
                     <div className="button_read_before"></div>
                     <div className="button_read_after "></div>
                     read now

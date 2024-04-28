@@ -49,10 +49,10 @@ function Footer() {
                         </p>
                     </div>
                     <ul className="flex justify-between md:justify-around md:w-3/6 w-4/6 mx-auto py-2 lg:mx-auto lg:py-10">
-                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-facebook text-lg'></i></li>
-                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-instagram text-lg'></i></li>
-                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-twitter text-lg'></i></li>
-                        <li className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-tiktok text-lg'></i></li>
+                        <a href="#" className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-facebook text-lg'></i></a>
+                        <a href="#" className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-instagram text-lg'></i></a>
+                        <a href="#" className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-twitter text-lg'></i></a>
+                        <a href="#" className="bg-black rounded-full flex justify-center items-center w-12 h-12 cursor-pointer text-base text-red-600 border-2 border-red-600 shadow-white hover:bg-neutral-50"><i className='bx bxl-tiktok text-lg'></i></a>
                     </ul>
                 </div>
             </div>
