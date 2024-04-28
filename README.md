@@ -1,6 +1,6 @@
 # Front-End-Project-LectorScan
 ## Project LectorScan, a fictional manga chapter reading platform
-![LectorScan](https://github.com/GMKRAKEN23/Front-End-Project-LectorScan/assets/149949090/417e59ef-729b-4e41-8a74-43700699b12e)
+![LectorScan](https://github.com/GMKRAKEN23/Front-End-Project-LectorScan/assets/149949090/b3beee9c-b57e-44d2-806a-f7ce885894c6)
 
 ## Description 
 
