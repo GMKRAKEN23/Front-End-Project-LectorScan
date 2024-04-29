@@ -18,11 +18,11 @@ function PopularManga() {
                 <div className="h-auto sm:flex">
                     <h2 className='text-neutral-50 text-center tracking-widest font-bold sm:pl-12 py-5 text-2xl lg:text-3xl mb-5'>Popular Manga</h2>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 cursor-pointer mx-auto h-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-auto h-auto">
                     {mangaData.map((manga, index) => (
                         <div key={index} className="max-w-sm w-80 border-2 flex flex-col justfify-between rounded-lg
                                 overflow-hidden shadow-lg bg-[#1d1e20] m-3 hover:scale-[102%] transform transition duration-300 
-                                ease-in-out shadow_custom_red-20">
+                                ease-in-out shadow_custom_red-20 cursor-default">
                             <div className="h-full">
                                 <img className="w-full h-full object-cover" src={`../${manga.image}`} alt="popular_manga" />
                             </div>
@@ -45,7 +45,7 @@ function PopularManga() {
                                     <p className="hidden text-gray-700 text-sm text-neutral-50"><i className='bx bxs-book-add'></i></p>
                                 </div>
                                 <div className="flex justify-center my-2">
-                                    <a href="#" className="text-neutral-50 px-5 py-2 bg-red-600 border rounded-md">see more</a>
+                                    <a href="#" className="text-neutral-50 px-5 py-2 bg-red-600 border rounded-md cursor-pointer">see more</a>
                                 </div>
                             </div>
                         </div>

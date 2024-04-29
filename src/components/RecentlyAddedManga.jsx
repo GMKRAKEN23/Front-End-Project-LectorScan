@@ -35,7 +35,7 @@ function RecentlyAddedManga() {
                     {mangaData.map((manga, index) => (
                         <div key={index} className="max-w-sm w-80 border-2 flex flex-col justfify-between rounded-lg
                             overflow-hidden shadow-lg bg-[#1d1e20] m-3 hover:scale-[102%] transform transition duration-300 
-                            ease-in-out shadow_custom_red-20">
+                            ease-in-out shadow_custom_red-20 cursor-default">
                             <div className="h-full">
                                 <img className="w-full h-full object-cover" src={`../${manga.chapter[0].image}`} alt="popular_manga" />
                             </div>
@@ -58,7 +58,7 @@ function RecentlyAddedManga() {
                                     <p className="hidden text-gray-700 text-sm text-neutral-50"><i className='bx bxs-book-add'></i></p>
                                 </div>
                                 <div className="flex justify-center my-2">
-                                    <a href="#" className="text-neutral-50 px-5 py-2 bg-red-600 border rounded-md">read more</a>
+                                    <a href="#" className="text-neutral-50 px-5 py-2 bg-red-600 border rounded-md cursor-pointer">read more</a>
                                 </div>
 
                             </div>
